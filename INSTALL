@@ -1,0 +1,11 @@
+
+To compile the Deaf Shell, use make:
+$ make
+A deafshell executable should have been created in the current directory.
+
+To install it on your system, type:
+$ su -c "make install"
+or
+$ sudo make install
+
+Deaf Shell installs itself by default in /bin.

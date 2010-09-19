@@ -1,0 +1,23 @@
+
+ABOUT
+
+Deaf Shell is intended to be used as a shell for system accounts dedicated to
+OpenSSH port forwarding, as in:
+ssh -L [bind_address:]port:host:hostport]
+ssh -R [bind_address:]port:host:hostport]
+Deaf Shell will print some information and sleep until receiving a termination
+signal (Ctrl+C or SIGINT from the user, SIGTERM from the system for instance).
+It will also print a character every ten seconds.
+
+
+FEATURES
+
+* Minimal system resource usage.
+* Runs on Linux and probably most other Unices.
+* FLOSS (GPLv3).
+
+
+DOWNLOAD
+
+The Deaf Shell can be downloaded from http://github.com/deafshell .
+
