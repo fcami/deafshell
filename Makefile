@@ -16,7 +16,7 @@ release: debug
 
 
 install:
-	install -m 755 $(PROG) $(INSTALLDIR)/$(PROG)
+	install -m 755 $(PROG) $(DESTDIR)$(INSTALLDIR)/$(PROG)
 
 
 clean:
