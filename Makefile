@@ -1,6 +1,6 @@
 
 CFLAGS := -O2 -g -Wall -lm $(CFLAGS)
-INSTALLDIR=/bin
+INSTALLDIR=/usr/bin
 PROG=deafshell
 
 

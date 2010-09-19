@@ -8,4 +8,4 @@ $ su -c "make install"
 or
 $ sudo make install
 
-Deaf Shell installs itself by default in /bin.
+Deaf Shell installs itself by default in /usr/bin.
